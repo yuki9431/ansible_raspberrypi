@@ -1,0 +1,7 @@
+---
+- hosts: vpn
+  roles:
+    - rename_os_user
+    - setup_ipaddress
+    - install_ufw
+    - setup_ufw
